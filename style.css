@@ -1,0 +1,90 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+}
+
+.nav {
+  width: 100%;
+  background-color: rgb(22, 20, 20);
+  color: white;
+  padding: 20px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.nav span {
+  font-size: 1.5em;
+}
+.nav input {
+  padding: 10px 15px;
+  width: 20%;
+}
+.nav ::-moz-placeholder {
+  font-weight: bold;
+}
+.nav :-ms-input-placeholder {
+  font-weight: bold;
+}
+.nav ::placeholder {
+  font-weight: bold;
+}
+
+.footer {
+  width: 100%;
+  background-color: rgb(22, 20, 20);
+  color: white;
+  padding: 20px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.main {
+  margin: 50px auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 10px;
+  width: 60%;
+}
+.main div {
+  width: 30%;
+}
+.main div img {
+  width: 100%;
+}
+.main div p {
+  text-align: center;
+}
+
+.info-div > p:first-child {
+  width: 100%;
+  text-align: center;
+  font-weight: bold;
+  font-size: 2em;
+}
+
+.info-div > p {
+  text-align: justify;
+}
+
+.info-div > img {
+  max-height: 600px;
+}
+
+.info-div > img, .info-div > div {
+  width: 45%;
+}
+
+.info-div > div > ul {
+  margin-bottom: 20px;
+}
+
+.info-div > div h3 {
+  margin-bottom: 5px;
+}
