@@ -83,7 +83,7 @@ function handleRequest(data) {
 }
 
 function handleResponse() {
-    fetch(`http://api.tvmaze.com/shows`).then((response) => response.json()).then((data) => handleRequest(data));
+    fetch(`https://api.tvmaze.com/shows`).then((response) => response.json()).then((data) => handleRequest(data));
 }
 window.addEventListener("load", handleResponse);
 
